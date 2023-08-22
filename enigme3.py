@@ -1,27 +1,4 @@
-# import random
-# def tri_insertion(liste):
-#     L = list(liste) # copie de la liste
-#     N = len(L)
-#     for n in range(1,N):
-#         cle = L[n]
-#         j = n-1
-#         while j>=0 and L[j] > cle:
-#             L[j+1] = L[j] # decalage
-#             j = j-1
-#         L[j+1] = cle
-#     return L
-    
-# liste = []
-# for k in range(10):
-#     liste.append(random.randint(0,20))
-# liste_triee = tri_insertion(liste)
-
-# print(liste)
-# [4, 4, 1, 14, 4, 3, 11, 19, 18, 18]
-# print(liste_triee)
-# [1, 3, 4, 4, 4, 11, 14, 18, 18, 19]
-
-    # on passe en parametre la liste et le plus grand indice
+# on passe en parametre la liste et le plus grand indice
 def maximum(liste, k):
 
     # récuperation de l'indice le plus grand jusqu'à la fin de la liste
